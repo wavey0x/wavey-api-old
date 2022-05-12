@@ -40,7 +40,14 @@ if(process.env.ENV == "PROD"){
 const server = https.createServer(options, app);
 
 app.get('/', (request, response) => {
-    response.json({ info: 'Node.js, Express, and Postgres API' })
+    response.json({ info: 'Welcome to wavey API' })
+})
+
+app.get('/position-monitor', (req, res) => {
+  fs.readFile('./position_monitor.json', (err, json) => {
+  let obj = JSON.parse(json);
+      res.json(obj);
+  });
 })
 
 app.get('/addresses', db.getAddresses)
