@@ -1,0 +1,236 @@
+{
+    "simulation_data": [
+        {
+            "strategy_address": "0xa6D1C610B3000F143c18c75D84BaA0eC22681185",
+            "strategy_name": "ssc_dai_ib",
+            "vault_address": "0xdA816459F1AB5631232FE5e97a05BBBb94970c95",
+            "vault_symbol": "yvDAI",
+            "success": true,
+            "current_ratio": 2252,
+            "profit": 69.48317712336592,
+            "loss": 0.0,
+            "debt_payment": 478134.7203834813,
+            "debt_payment_usd": 479090.98982424824,
+            "strategy_debt_before": 46623757.75360295,
+            "strategy_debt_before_usd": 46717005.26911016,
+            "strategy_debt_after": 0.0,
+            "strategy_debt_after_usd": 0.0,
+            "max_no_loss_ratio": 2300,
+            "max_ratio_reduction": -48
+        },
+        {
+            "strategy_address": "0x0c8f62939Aeee6376f5FAc88f48a5A3F2Cf5dEbB",
+            "strategy_name": "ssc_usdc_ib",
+            "vault_address": "0xa354F35829Ae975e850e23e9615b11Da1B3dC4DE",
+            "vault_symbol": "yvUSDC",
+            "success": true,
+            "current_ratio": 2980,
+            "profit": 114.677493,
+            "loss": 0.0,
+            "debt_payment": 650678.343909,
+            "debt_payment_usd": 650938.6152465636,
+            "strategy_debt_before": 84590245.693826,
+            "strategy_debt_before_usd": 84624081.79210353,
+            "strategy_debt_after": 0.0,
+            "strategy_debt_after_usd": 0.0,
+            "max_no_loss_ratio": 2982,
+            "max_ratio_reduction": -2
+        },
+        {
+            "strategy_address": "0x960818b3F08dADca90b840298721FE7B419fBE12",
+            "strategy_name": "SSBv3 USDC staBAL3",
+            "vault_address": "0xa354F35829Ae975e850e23e9615b11Da1B3dC4DE",
+            "vault_symbol": "yvUSDC",
+            "success": true,
+            "current_ratio": 1100,
+            "profit": 17.470497,
+            "loss": 0.0,
+            "debt_payment": 1830858.357061,
+            "debt_payment_usd": 1831590.7004038244,
+            "strategy_debt_before": 32231506.49184,
+            "strategy_debt_before_usd": 32244399.094436735,
+            "strategy_debt_after": 0.0,
+            "strategy_debt_after_usd": 0.0,
+            "max_no_loss_ratio": 1080,
+            "max_ratio_reduction": 20
+        },
+        {
+            "strategy_address": "0x034d775615d50D870D742caA1e539fC8d97955c2",
+            "strategy_name": "SSBv3 DAI staBAL3",
+            "vault_address": "0xdA816459F1AB5631232FE5e97a05BBBb94970c95",
+            "vault_symbol": "yvDAI",
+            "success": true,
+            "current_ratio": 1085,
+            "profit": 30.711073818891087,
+            "loss": 0.0,
+            "debt_payment": 9117129.237907797,
+            "debt_payment_usd": 9135363.496383613,
+            "strategy_debt_before": 24626071.239941992,
+            "strategy_debt_before_usd": 24675323.382421877,
+            "strategy_debt_after": 0.0,
+            "strategy_debt_after_usd": 0.0,
+            "max_no_loss_ratio": 773,
+            "max_ratio_reduction": 312
+        },
+        {
+            "strategy_address": "0x0967aFe627C732d152e3dFCAdd6f9DBfecDE18c3",
+            "strategy_name": "StrategystETHAccumulator",
+            "vault_address": "0xa258C4606Ca8206D8aA700cE2143D7db854D168c",
+            "vault_symbol": "yvWETH",
+            "success": false,
+            "current_ratio": 2265,
+            "profit": 0.0,
+            "loss": 2.8744192891817297,
+            "debt_payment": 380.4732829092103,
+            "debt_payment_usd": 780584.440920573,
+            "strategy_debt_before": 28697.724095273334,
+            "strategy_debt_before_usd": 58876662.10703995,
+            "strategy_debt_after": 0.0,
+            "strategy_debt_after_usd": 0.0,
+            "max_no_loss_ratio": 3216,
+            "max_ratio_reduction": -951
+        },
+        {
+            "strategy_address": "0xF9fDc2B5F60355A237deb8BD62CC117b1C907f7b",
+            "strategy_name": "ssc_eth_steth",
+            "vault_address": "0xa258C4606Ca8206D8aA700cE2143D7db854D168c",
+            "vault_symbol": "yvWETH",
+            "success": true,
+            "current_ratio": 2475,
+            "profit": 0.021291639946992368,
+            "loss": 0.0,
+            "debt_payment": 2472.248859166488,
+            "debt_payment_usd": 5072101.196681113,
+            "strategy_debt_before": 22016.855742382442,
+            "strategy_debt_before_usd": 45170096.830682024,
+            "strategy_debt_after": 0.0,
+            "strategy_debt_after_usd": 0.0,
+            "max_no_loss_ratio": 2219,
+            "max_ratio_reduction": 256
+        }
+    ],
+    "curve_pool_data": [
+        {
+            "total_assets": 1577329,
+            "address": "0xDC24316b9AE028F1497c275EB9192a3Ea0f67022",
+            "name": "STETH",
+            "tokens": [
+                {
+                    "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+                    "symbol": "ETH",
+                    "decimals": 18,
+                    "balance": 653567.6227795216
+                },
+                {
+                    "address": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",
+                    "symbol": "stETH",
+                    "decimals": 18,
+                    "balance": 923761.9985995683
+                }
+            ]
+        },
+        {
+            "total_assets": 24070546776,
+            "address": "0x2dded6Da1BF5DBdF597C45fcFaa3194e53EcfeAF",
+            "name": "IB",
+            "tokens": [
+                {
+                    "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+                    "symbol": "DAI",
+                    "decimals": 18,
+                    "balance": 2032952803.039651
+                },
+                {
+                    "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+                    "symbol": "USDC",
+                    "decimals": 6,
+                    "balance": 1807117900.4845881
+                },
+                {
+                    "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+                    "symbol": "USDT",
+                    "decimals": 6,
+                    "balance": 20230476072.82041
+                }
+            ]
+        }
+    ],
+    "vault_data": [
+        {
+            "address": "0xdA816459F1AB5631232FE5e97a05BBBb94970c95",
+            "symbol": "yvDAI",
+            "decimals": 18,
+            "total_assets": 200633143.62269333,
+            "underlying": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+            "available_reserves": 27697026.4832389
+        },
+        {
+            "address": "0xa354F35829Ae975e850e23e9615b11Da1B3dC4DE",
+            "symbol": "yvUSDC",
+            "decimals": 6,
+            "total_assets": 281487482.729436,
+            "underlying": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+            "available_reserves": 37978183.302633
+        },
+        {
+            "address": "0xa354F35829Ae975e850e23e9615b11Da1B3dC4DE",
+            "symbol": "yvUSDC",
+            "decimals": 6,
+            "total_assets": 281487482.729436,
+            "underlying": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+            "available_reserves": 37978183.302633
+        },
+        {
+            "address": "0xdA816459F1AB5631232FE5e97a05BBBb94970c95",
+            "symbol": "yvDAI",
+            "decimals": 18,
+            "total_assets": 200633143.62269333,
+            "underlying": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+            "available_reserves": 27697026.4832389
+        },
+        {
+            "address": "0xa258C4606Ca8206D8aA700cE2143D7db854D168c",
+            "symbol": "yvWETH",
+            "decimals": 18,
+            "total_assets": 88078.4447193148,
+            "underlying": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "available_reserves": 28897.59500476782
+        },
+        {
+            "address": "0xa258C4606Ca8206D8aA700cE2143D7db854D168c",
+            "symbol": "yvWETH",
+            "decimals": 18,
+            "total_assets": 88078.4447193148,
+            "underlying": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "available_reserves": 28897.59500476782
+        }
+    ],
+    "balancer_pool_data": [
+        {
+            "name": "Balancer USD Stable Pool",
+            "pid": 3108292368993806287027789848891707848043480953360864413004533018890491396195,
+            "address": "0x06Df3b2bbB68adc8B0e302443692037ED9f91b42",
+            "total_assets": 144042506,
+            "tokens": [
+                {
+                    "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+                    "symbol": "DAI",
+                    "decimals": 18,
+                    "balance": 18964965.050342117
+                },
+                {
+                    "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+                    "symbol": "USDC",
+                    "decimals": 6,
+                    "balance": 18339907.829254
+                },
+                {
+                    "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+                    "symbol": "USDT",
+                    "decimals": 6,
+                    "balance": 106737633.69932
+                }
+            ]
+        }
+    ]
+}

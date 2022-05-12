@@ -34,13 +34,12 @@ if(process.env.ENV == "PROD"){
         key: key,
         cert: cert
     };
-    // port = 80;
 }
 
 const server = https.createServer(options, app);
 
-app.get('/', (request, response) => {
-    response.json({ info: 'Welcome to wavey API' })
+app.get('/', (req, res) => {
+    res.json({ info: 'Welcome to wavey API' })
 })
 
 app.get('/position-monitor', (req, res) => {
@@ -50,9 +49,15 @@ app.get('/position-monitor', (req, res) => {
   });
 })
 
-app.get('/addresses', db.getAddresses)
+// app.get('/addresses', db.getAddresses)
 
-server.listen(port, () => {
+if(process.env.ENV == "PROD"){
+  server.listen(port, () => {
+      console.log(`App running on port ${port}.`)
+  })
+}
+else{
+  app.listen(port, () => {
     console.log(`App running on port ${port}.`)
-})
-
+  })
+}
